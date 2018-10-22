@@ -1,5 +1,6 @@
 package mainUI;
 
+import forLoopChallenges.AllFactors;
 import forLoopChallenges.EvenDigitSum;
 import forLoopChallenges.FirstAndLastDigitSum;
 import forLoopChallenges.GreatestCommonDivisor;
@@ -103,6 +104,7 @@ public class UI {
 		   		  /*******ALL FACTORS*****/ 
 		/*******************************************/
 		
+		AllFactors.printFactor(10);
 		
 	}
 

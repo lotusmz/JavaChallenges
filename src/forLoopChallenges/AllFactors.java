@@ -3,21 +3,21 @@ package forLoopChallenges;
 public class AllFactors {
 	
 	public static void printFactor(int number) {
-		int initialValue = number;
+		int initialValue = 1;
 		
 			if(number < 1 ) {
 				System.out.println("Invalid Value");				
 			}else {
 				
-				for(int i=0;i<initialValue;i++) {
+				for(int i=number;i>=initialValue;) {
 					
-					if(initialValue%number == 0) {
+					if(number%initialValue == 0) {
 						
-						System.out.println(number);
+						System.out.print(initialValue + " ");
 						
 					}
 					
-					number--;
+					initialValue++;
 				}
 				
 			}
