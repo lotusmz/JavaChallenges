@@ -2,6 +2,7 @@ package mainUI;
 
 import forLoopChallenges.EvenDigitSum;
 import forLoopChallenges.FirstAndLastDigitSum;
+import forLoopChallenges.LastDigitChecker;
 import forLoopChallenges.NumberPalindrome;
 import forLoopChallenges.SharedDigit;
 import forLoopChallenges.Sum3And5;
@@ -77,13 +78,19 @@ public class UI {
 	      		*//*******EVEN DIGIT SUM*****//* 
 		*//*******************************************//*
 		
-		System.out.println("Sum of even digits " + EvenDigitSum.getEvenDigitSum(-22));*/
+		System.out.println("Sum of even digits " + EvenDigitSum.getEvenDigitSum(-22));
+		
+		*//********************************************//*
+  			   *//*******HAS SHARED DIGIT*****//* 
+		*//*******************************************//*		
+		
+		System.out.println("Two numbers have a shared digit " + SharedDigit.hasSharedDigit(15, 55));*/
 		
 		/********************************************/
-  			   /*******HAS SHARED DIGIT*****/ 
-		/*******************************************/		
+		   /*******LAST DIGIT CHECKER*****/ 
+		/*******************************************/	
 		
-		System.out.println("Two numbers have a shared digit " + SharedDigit.hasSharedDigit(15, 55));
+		System.out.println(LastDigitChecker.hasSameLastDigit(9, 99, 999));
 	}
 
 }

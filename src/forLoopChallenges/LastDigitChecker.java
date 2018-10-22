@@ -1,5 +1,7 @@
 package forLoopChallenges;
 
+/*Class that tests if out of three numbers at least two share the same last digit*/
+
 public class LastDigitChecker {
 	
 	public static boolean hasSameLastDigit(int a, int b, int c) {
@@ -9,6 +11,14 @@ public class LastDigitChecker {
 				answer = false;
 			}else {
 				
+				int lastDigitA = a%10;
+				int lastDigitB = b%10;
+				int lastDigitC = c%10;
+				
+				if(lastDigitA == lastDigitC || lastDigitA == lastDigitB || lastDigitC == lastDigitB) {
+					
+					answer = true;
+				}
 				
 			}
 		
