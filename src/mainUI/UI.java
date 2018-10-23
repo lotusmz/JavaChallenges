@@ -6,6 +6,8 @@ import forLoopChallenges.FirstAndLastDigitSum;
 import forLoopChallenges.GreatestCommonDivisor;
 import forLoopChallenges.LastDigitChecker;
 import forLoopChallenges.NumberPalindrome;
+import forLoopChallenges.NumberToWords;
+import forLoopChallenges.PerfectNumber;
 import forLoopChallenges.SharedDigit;
 import forLoopChallenges.Sum3And5;
 import methodChallenges.AreaCalculator;
@@ -98,14 +100,26 @@ public class UI {
 		   *//*******GREATEST COMMON DIVISOR*****//* 
 		*//*******************************************//*	
 		
-		System.out.println(GreatestCommonDivisor.getGreatestCommonDivisor(81, 153));*/
+		System.out.println(GreatestCommonDivisor.getGreatestCommonDivisor(81, 153));
 		
-		/********************************************/
-		   		  /*******ALL FACTORS*****/ 
-		/*******************************************/
+		*//********************************************//*
+		   		  *//*******ALL FACTORS*****//* 
+		*//*******************************************//*
 		
 		AllFactors.printFactor(10);
 		
+		*//********************************************//*
+ 		  		*//*******PERFECT NUMBER*****//* 
+		*//*******************************************//*
+		
+		System.out.println(PerfectNumber.isPerfectNumber(-1));*/
+
+		
+		/********************************************/
+	  		   /*******NUMBER TO WORDS*****/ 
+		/*******************************************/
+		
+		NumberToWords.numberToWords(100);
 	}
 
 }
