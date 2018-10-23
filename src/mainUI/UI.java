@@ -16,6 +16,7 @@ import forLoopChallenges.Sum3And5;
 import methodChallenges.AreaCalculator;
 import methodChallenges.EqualityPrinter;
 import methodChallenges.PlayingCat;
+import scannerChallenges.ReadingUserInputChallenge;
 import switchChallenges.NumberOfDaysInMonth;
 
 public class UI {
@@ -142,6 +143,12 @@ public class UI {
 	/*******************************************/
 	
 	DiagonalStar.printSquareStar(5);
+	
+	/********************************************/
+	   	   /*******READING USER INPUT*****/ 
+	/*******************************************/
+	
+	ReadingUserInputChallenge.userInput();
 	}
 
 }
